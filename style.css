@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    color:  #646464;
+}
+
+.interface {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation {
+    background-color: #ffff;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    box-shadow: 1px 1px 7px 1px #64646461;
+}
+.mobile-nav {
+    display: none;
+}
+.navtop {
+    display: flex;
+}
+
+.mobile-exit .ion {
+    font-size: 20px;
+    margin: 10px 20px 0px 10px ;
+    color: #646464;
+    display: none;
+}
+
+.logo{
+    margin: 20px 0px 50px 0px;
+}
+.logo img {
+    width: 180px;
+}
+
+.navigation li {
+    list-style: none;
+    padding:17px 20px;
+    font-size: 15px;
+}
+
+.navigation li:hover {
+    background-color: rgba(12, 137, 201, 0.21);
+    /* color: rgba(12, 137, 201, 0.21); */
+    margin: 0px 0px;
+}
+.navigation a:hover {
+    color:#028BCC;
+    transition: 0.3s;
+}
+
+.navigation .icon{
+    font-size: 15px;
+    margin: 0px 10px;
+    color:  #646464;
+}
+
+.dashboard {
+    background-color:#F3F4F6;
+    width: 85%;
+    margin-left: 15%;
+}
+
+
+
+/* status */
+.status {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.status-items {
+margin-top: 12px;
+}
+
+#mobile-cta .icon  {
+    font-size: 30px;
+    margin-left: 20px;
+    display: none;
+}
+
+.status .icon{
+    font-size: 20px;
+    margin-right: 15px;
+    
+    
+}
+
+.status img {
+
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+
+
+/* balance */
+.balance {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+}
+.balance h3 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+.balance-items {
+    color: #ffff;
+
+}
+.balance-items h3 {
+    font-weight: 300;
+    font-size: 25px;
+}
+.balance-items p {
+    font-size: 13px;
+}
+.pad {
+    padding: 0px 6px;
+}
+.bal1 {
+    
+    background: linear-gradient(180deg, #028BCC 0%, #0471A6 59.71%, #055983 100%);    
+    border-radius: 20px;
+    margin:  20px 0px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.bal-b {
+    margin-top: 30px;
+    text-align: right;
+}
+.bal-b img {
+    width: 130px;
+}
+.rent {
+    display: flex;
+    padding-bottom: 20px;
+}
+.dot {
+    background-color: rgba(2, 146, 2, 0.734);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.bal2 {
+    
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px 0px;
+    display: flex;
+    padding: 20px 20px 27px 20px ;
+    justify-content: space-between;
+}
+
+
+
+/* Quick Links */
+.quick-link {
+    width: 90%;
+    margin-top: 20px;
+}
+.quick-link h5 {
+    font-weight: 600;
+}
+.cards {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 10px 15px ;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    height: 60%;
+}
+.cards-sub {
+    font-size: 13px;
+    margin: 0;
+}
+.cards img {
+    width: 70px;
+    margin-top: 0px;
+}
+
+.cards-lead {
+    color: #028BCC;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 7px;
+    margin-top: 15px;
+}
+.cta-img img {
+    width: 100%;
+}
+
+@media (max-width:992px) {
+    .mobile-nav {
+        background-color: #ffff;
+        width: 15%;
+        height: 100%;
+        position: fixed;
+        box-shadow: 1px 1px 7px 1px #64646461;
+        display: block;
+    }
+    .mobile-nav li {
+        list-style: none;
+        padding:17px 20px;
+        font-size: 15px;
+    }
+    
+    .mobile-nav li:hover {
+        background-color: rgba(12, 137, 201, 0.21);
+        /* color: rgba(12, 137, 201, 0.21); */
+        margin: 0px 0px;
+    }
+    .mobile-nav a:hover {
+        color:#028BCC;
+        transition: 0.3s;
+    }
+    
+    .mobile-nav .icon{
+        font-size: 15px;
+        margin: 0px 10px;
+        color:  #646464;
+    }
+    .mobile-exit .ion {
+        font-size: 20px;
+        margin: 8px 0px 0px -10px ;
+        color: #646464;
+        display: block;
+    }
+    
+    #mobile-cta .icon  {
+        font-size: 30px;
+        margin-left: 20px;
+        display: block;
+        color: #646464;
+    }
+    .navigation {
+        display: none;
+    }
+
+    .mobile-nav {
+        width: 200px;
+        z-index: 999
+    }
+    .dashboard {
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+    
+}
+
